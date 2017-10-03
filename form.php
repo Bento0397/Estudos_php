@@ -1,17 +1,25 @@
-<form> 
-	<input type="text" name="Nome">
-	<input type="date" name="Nascimento">
-	<input type="submit" name="ok">
-	<fieldset>
-		<legend>Sexo</legend>
+
+<br/>
+<hr>
+<br/>
+		<div>
+			<form >
+				Nome: <input type="text" name="nome"/><br/>
+				Ano de Nascimento: <input type="number" name="ano"/><br/>
+					<fieldset><legend>Sexo</legend>
 						<input type="radio" name="sexo" id="masc" />
 						<label for="masc">Masculino</label>
 						<input type="radio" name="sexo" id="fem" />
 						<label for="fem">Feminino</label>
-	</fieldset><br/>
-</form>
+					</fieldset><br/>
+					<input type="submit" value="Enviar"/>
+			</form>
+		
+		</div>
 
 <?php
+
+require_once("config.php");
 
 if (isset($_GET))
 {	
@@ -26,4 +34,8 @@ if (isset($_GET))
 
 }
 
+
+
+
 ?>
+

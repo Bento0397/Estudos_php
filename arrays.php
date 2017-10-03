@@ -28,7 +28,6 @@ echo end($carros[1]);
 
 */
 
-
 $pessoas = array();
 
 array_push($pessoas, array (
@@ -43,4 +42,8 @@ array_push($pessoas, array (
 
 print_r ($pessoas[0]['nome']); 
 
+require_once("config.php");
+
 ?>
+
+

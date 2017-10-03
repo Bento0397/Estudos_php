@@ -1,12 +1,8 @@
 <?php
 		echo PHP_VERSION;
-
 		
+		echo DIRECTORY_SEPARATOR;
 
-		
+		require_once("config.php");
 ?>
-		 <br>
-		 <br>
-		<form method="get" action="index.html">
-			    	<button type="submit">Index </button>
-		</form> 
+		

@@ -22,4 +22,6 @@ $json = '[{"nome":"Gabriel","idade":20},{"nome":"Karina","idade":19}]';
 $data = json_decode($json,true) ;
 
 var_dump($data);
+
+require_once("config.php");
 ?>
